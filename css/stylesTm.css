@@ -1,0 +1,36 @@
+
+/* Estilos de secciones de datos */
+.data-section {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.data-section h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.data-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.data-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos de gráficas */
+.chart {
+    margin-top: 20px;
+}
+
+/* Estilos específicos para las gráficas */
+canvas {
+    width: 100%;
+    height: auto;
+    display: block;
+}

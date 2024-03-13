@@ -1,0 +1,110 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario de búsqueda */
+#busqueda-section {
+    margin-bottom: 20px;
+}
+
+#busqueda-section form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#busqueda-section label {
+    margin-right: 10px;
+}
+
+#busqueda-section input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#busqueda-section button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#busqueda-section button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para la tabla de resultados */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el botón de descarga */
+.container button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #218838;
+}
+
